@@ -27,6 +27,7 @@ class SelectionSort{
 				if(this.array[j] < this.array[min]){
 					min = j;
 				}
+				p.delay();
 			}
 			
 			// If minimum in current sub-array is not in correct position, swap it!
